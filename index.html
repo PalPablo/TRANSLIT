@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script defer src="index.js"></script>
+    <title>Транслит</title>
+</head>
+<body>
+    <header class="header">T.R.A.N.S.L.I.T.</header>
+    <main class="content">
+        <div class="input-wrapper">
+            <input type="text" id="inputText" placeholder="Начните вводить текст">
+            <button id="addingButton">Добавить</button>
+        </div>
+        <div class="container-table" id="tableContainer">
+            <div class="row">
+            <div class="rus-cell">
+                <span class="index">1</span>
+                <span class="text">Привет 👋</span>
+            </div>
+            <div class="translit-cell">
+                <span class="text">Privet</span>
+                <img src="/icons/Group 7.svg" alt="">
+            </div>
+
+        </div>
+        </div>
+       
+        <button id="clearAll"><img src="/icons/Group 7.svg" alt="">Очистить все</button>
+    </main>
+
+</body>
+</html>
+
